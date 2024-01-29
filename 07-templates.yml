@@ -4,3 +4,6 @@
   vars:
     fruit_name: apple
   tasks:
+    - ansible.builtin.template:
+        src: test.txt
+        dest: /tmp/test.txt
