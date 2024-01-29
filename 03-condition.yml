@@ -1,6 +1,9 @@
 - name: Demo on Conditions
   hosts: all
   connection: local
+  vars:
+    fruit: true
+    vegetable: false
   tasks:
     - name: Print Fruit Name
       ansible.builtin.debug:
@@ -9,4 +12,4 @@
     - name: Print vegetable Name
       ansible.builtin.debug:
         msg: Vegetable Name - Carrot
-      when: fruit is true
+      when: vegetable is true
