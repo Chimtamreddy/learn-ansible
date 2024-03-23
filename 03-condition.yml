@@ -1,5 +1,5 @@
 - name: Demo on Conditions
-  hosts: all
+  hosts: localhost
   connection: local
   vars:
     fruit: true
