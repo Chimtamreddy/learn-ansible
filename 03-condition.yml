@@ -13,3 +13,4 @@
       ansible.builtin.debug:
         msg: Vegetable Name - Carrot
       when: vegetable is true
+
