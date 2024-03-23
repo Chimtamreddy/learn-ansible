@@ -8,9 +8,9 @@
     - name: Print Fruit Name
       ansible.builtin.debug:
         msg: Fruit Name - Apple
-      when: fruit is true
+      when: fruit
     - name: Print vegetable Name
       ansible.builtin.debug:
         msg: Vegetable Name - Carrot
-      when: vegetable is true
+      when: vegetable
 
