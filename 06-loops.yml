@@ -1,6 +1,6 @@
 - name: Demo On Loops
-  hosts: local
-  connection: localhost
+  hosts: localhost
+  connection: local
   vars:
     fruits:
       - apple
